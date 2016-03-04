@@ -21,7 +21,8 @@
 * Упрощаем и облегчаем логику JS обработки форм и отправки писем по примеру из папки example_form
 
 # Для предложений и вопросов
-skype: yevgeny.zakharov
-email: e.zhrv@yandex.ru
+
+* skype: yevgeny.zakharov
+* e.zhrv@yandex.ru
 
 
