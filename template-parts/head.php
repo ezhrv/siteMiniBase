@@ -6,3 +6,5 @@
  * Date: 04.03.2016
  * Time: 10:41
  */
+?>
+<title>included head.php</title>

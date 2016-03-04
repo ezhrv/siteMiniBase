@@ -5,9 +5,7 @@
  * Date: 04.03.2016
  * Time: 10:44
  */
-
-$A_PATH = '/ABSOLUTE/PATH/TO/PROJECT/';
-
+include_once("config.php");
 /**
  * Выводит шаблон из папки template-parts
  * @param $name
@@ -15,7 +13,7 @@ $A_PATH = '/ABSOLUTE/PATH/TO/PROJECT/';
 function get_template_part($name)
 {
     global $A_PATH;
-    require_once($A_PATH . 'template-parts/' . $name);
+    require_once($A_PATH . '/template-parts/' . $name);
 }
 
 /**

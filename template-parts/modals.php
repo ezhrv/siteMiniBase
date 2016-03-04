@@ -6,3 +6,5 @@
  * Date: 04.03.2016
  * Time: 10:43
  */
+?>
+<p>included modals.php</p>

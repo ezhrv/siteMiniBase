@@ -5,7 +5,7 @@
  * Date: 04.03.2016
  * Time: 11:19
  */
-include_once('functions.php');
+include_once('app/functions.php');
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -18,7 +18,7 @@ include_once('functions.php');
 
         <?= get_template_part('header.php'); ?>
 
-        CONTENT
+        <p>CONTENT</p>
 
         <?= get_template_part('footer.php'); ?>
         <?= get_template_part('modals.php'); ?>

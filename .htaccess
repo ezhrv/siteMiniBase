@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+
+Options All -Indexes
+
+<FilesMatch ".(htaccess|md|gitignore)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
